@@ -1,0 +1,48 @@
+#image {
+ height: 256px;
+ width: 256px;
+ background: url('images/sprites/spritestrip_1.png') 0px 0px;
+}
+
+.arrows {
+    border-radius: 30px;
+}
+
+#leftArrow {
+ height: 150px;
+ width: 150px;
+ background: url('images/arrows/arrows.png') 0px 0px;
+ background-position: -21px -261px;
+ transition-duration:0.2s;
+}
+
+#rightArrow {
+ height: 150px;
+ width: 150px;
+ left:20px;
+ background: url('images/arrows/arrows.png') 0px 0px;
+ background-position: -341px -261px;
+ transition-duration:0.2s;
+}
+
+#upArrow {
+ height: 150px;
+ width: 150px;
+ background: url('images/arrows/arrows.png') 0px 0px;
+ background-position: -181px -101px;
+ transition-duration:0.2s;
+}
+
+#downArrow {
+ height: 150px;
+ width: 150px;
+ background: url('images/arrows/arrows.png') 0px 0px;
+ background-position: -181px -261px;
+ transition-duration:0.2s;
+}
+
+#downArrow:hover, #upArrow:hover, 
+#rightArrow:hover, #leftArrow:hover {
+    background-color:#fff7a8;
+    cursor:pointer;
+}
